@@ -44,7 +44,69 @@ header {
     font-size: 15px;
 }
 
-.cabecalho-link a :hover{
-    color: rgb(255, 0, 0);
-    transition: 0.3s all;
+.cabecalho-link a:hover{
+    color: white;
+    transition: 0.2s all;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1.5px solid black;
+    color: black;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button {
+    color: black;
+    background: transparent;
+    border: solid 1px black;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 100px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.container{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: black;
+    font-size: 15px;
+}
+
+.text h1{
+    color: black;
+    margin-top: 10px;
+}
+
+.text p{
+    color: black;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px; 
+}
+
+.redes-sociais a{
+    color: black;
+    padding-top: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn {
+    margin-top: 10px;
 }
