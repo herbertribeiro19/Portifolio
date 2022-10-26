@@ -11,14 +11,15 @@
 
 body {
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .main {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     background-image: url(./assets/image.jpg);
     background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-position: top center;
+    width: 100% auto;
     height: 100vh;
 }
 
@@ -110,3 +111,23 @@ button:hover{
 .btn {
     margin-top: 10px;
 }
+
+/* RESPONSIVIDADE! */
+
+/* @media only screen and (max-width: 900px) {
+    .body { 
+        width:85%;  
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 50%;
+        height: auto;
+    }
+    .cabecalho-link {
+        width: 100%;
+        height: auto;
+    }
+
+} */
