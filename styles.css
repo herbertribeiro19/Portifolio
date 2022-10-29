@@ -12,15 +12,36 @@
 body {
     overflow: hidden;
     background-repeat: no-repeat;
-}
-
-.main {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    background-image: url(./assets/image.jpg);
+    background-color: #201b2c;
     background-size: cover;
     background-position: top center;
     width: 100% auto;
-    height: 100vh;
+    height: 100;
+}
+
+
+.img {
+    padding-top: 1rem;
+}
+
+header img {
+    width: 100px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #FEE5CA 0%, #353131 50%, #FEE5CA 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform .5s;
+}
+
+
+.img:hover {
+    transform: scale(1.1)
+}
+
+header img {
+    width: 50%;
+    border-radius: 50%;
 }
 
 header {
@@ -41,12 +62,12 @@ header {
 }
 
 .cabecalho-link a{
-    color: rgb(0, 0, 0);
+    color: #FEE5CA;
     font-size: 15px;
 }
 
 .cabecalho-link a:hover{
-    color: white;
+    color: #FEE5CA;
     transition: 0.2s all;
 }
 
@@ -54,8 +75,8 @@ header {
     height: 40px;
     width: 40px;
     background: transparent;
-    border: 1.5px solid black;
-    color: black;
+    border: 1.5px solid #FEE5CA;
+    color: #FEE5CA;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -65,9 +86,9 @@ header {
 }
 
 button {
-    color: black;
+    color: #FEE5CA;
     background: transparent;
-    border: solid 1px black;
+    border: solid 1px #FEE5CA;
     padding: 3px;
     border-radius: 15px;
     font-size: 12px;
@@ -85,24 +106,24 @@ button:hover{
 }
 
 .text h3{
-    color: black;
+    color: #FEE5CA;
     font-size: 15px;
 }
 
 .text h1{
-    color: black;
+    color: #FEE5CA;
     margin-top: 10px;
 }
 
 .text p{
-    color: black;
+    color: #FEE5CA;
     font-size: 10px;
     font-weight: 300;
     margin-top: 10px; 
 }
 
 .redes-sociais a{
-    color: black;
+    color: #FEE5CA;
     padding-top: 5px;
     padding: 10px;
     margin-top: 5px;
@@ -111,23 +132,3 @@ button:hover{
 .btn {
     margin-top: 10px;
 }
-
-/* RESPONSIVIDADE! */
-
-/* @media only screen and (max-width: 900px) {
-    .body { 
-        width:85%;  
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .header {
-        width: 50%;
-        height: auto;
-    }
-    .cabecalho-link {
-        width: 100%;
-        height: auto;
-    }
-
-} */
