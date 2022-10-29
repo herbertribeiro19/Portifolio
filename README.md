@@ -4,7 +4,7 @@
 
 > Portifólio Profissional
 
-[Clique aqui para acessar](https://herbertribeiro19.github.io/Portif-lio/)
+[Clique aqui para acessar](https://herbertribeiro19.github.io/Portifolio/)
 
 ## Tecnologias utilizadas:
 - HTML;
