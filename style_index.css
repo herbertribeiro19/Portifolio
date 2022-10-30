@@ -11,7 +11,7 @@
 
 body {
     overflow: hidden;
-    background-color: #201b2c;
+    background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #000000 101%);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% auto;

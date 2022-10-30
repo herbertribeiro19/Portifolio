@@ -10,7 +10,7 @@
 }
 
 .section-1-bg{
-    background-image: linear-gradient(180deg, #201b2c 0%, #201b2c 98.5%, #FEE5CA 101%);
+    background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #000000 101%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -172,6 +172,55 @@ aside {
         transform: translateY(0)
     }
 }
+
+@media screen and (max-width: 414px){
+    .main-title h1{
+        font-size: 22px;
+        margin-top: 65%;
+        margin-right: 1%;
+    }
+    .main-title h2{
+        font-size: 15px;
+        margin-right: 1%;
+    }
+    .main-title h5{
+        font-size: 15px;
+    }
+    .main-title button{
+        width: 150px;
+    }
+    .numeros{
+        margin-right: 25%;
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main-title h1 {
+        font-size: 20px;
+        margin-top: 65%;
+        margin-right: 1%;
+    }
+
+    .main-title h2 {
+        font-size: 12px;
+        margin-right: 1%;
+    }
+
+    .main-title h5 {
+        font-size: 13px;
+    }
+
+    .main-title button {
+        width: 150px;
+    }
+
+    .numeros {
+        margin-right: 20%;
+        margin-top: 40%;
+    }
+}
+
 
 /* 
 .img {
