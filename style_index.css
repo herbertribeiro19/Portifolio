@@ -88,8 +88,68 @@ body {
 }
 
 /* RESPONSIVIDADE - Celular tela */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
+    .text h3 {
+        font-size: 35px;
+        margin-top: 1%;
+    }
+
+    .text h1 {
+        font-size:30px;
+        margin-top: 15%;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    
+    .text{
+        padding-top: 100px;
+    }
+
     .animation {
-        width: 60vw;
+        padding-top: 50px;
+        width: 70vw;
+    }
+    .btn {
+        background-color: #FEE5CA;
+        width: 30%;
+        padding: 16px 0px;
+        margin: 20px;
+        border: none;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (min-width: 374px) {
+    .text h3 {
+        font-size: 25px;
+        margin-top: 1%;
+    }
+
+    .text h1 {
+        font-size: 25px;
+        margin-top: 15%;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    .text {
+        padding-top: 15px;
+    }
+
+    .animation {
+        padding-top: 20px;
+        width: 50vw;
+    }
+
+    .btn {
+        background-color: #FEE5CA;
+        width: 30%;
+        padding: 16px 0px;
+        margin: 20px;
+        border: none;
+        border-radius: 15px;
     }
 }
