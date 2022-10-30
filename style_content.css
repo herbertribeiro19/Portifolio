@@ -172,11 +172,16 @@ aside {
     }
 }
 
-@media only screen and (max-width: 414px){
+@media screen and (max-width: 414px) {
+    .section-1-bg{
+        height: 1000px;
+        width: 415px;
+    }
+
     .main-title h1{
-        font-size: 22px;
+        font-size: 15px;
         margin-top: 65%;
-        margin-right: 1%;
+        margin-right: 17%;
     }
     .main-title h2{
         font-size: 15px;
@@ -192,26 +197,10 @@ aside {
         margin-right: 25%;
         margin-top: 50%;
     }
-    .main-title button {
-        width: 50%;
-        margin-top: 60px;
-        padding: 8px 5px;
-        font-size: 20px;
-        background-color: #f0835e;
-        border-radius: 50px;
-        color: #FEE5CA;
-        cursor: pointer;
-        transition: 1.0s;
-        box-shadow: 0px 0px 40px black;
-    }
-    .main-title button:hover {
-        border: none;
-        transition: 0.5s;
-        background: transparent;
-    }
+    
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .main-title h1 {
         font-size: 20px;
         margin-top: 65%;
