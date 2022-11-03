@@ -9,6 +9,7 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+/* INICIO - PAGE 1 */
 .section-1-bg{
     background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #000000 101%);
     background-repeat: no-repeat;
@@ -225,6 +226,71 @@ aside {
         margin-top: 40%;
     }
 }
+
+/* ABOUT ME - PAGE 2 */
+
+.c-sobre{
+    background-color: #fcf6ef;
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px black;
+    transition: transform 1.0s;
+    animation: fromBottom 1.0s backwards;
+ }
+
+.sobre-mim h1{
+    color: #201b2c;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.sobre-mim h4{
+    color: #201b2c;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.sobre-mim span {
+    color: #e96c42;
+}
+
+.sobre-mim p {
+    color: #201b2c;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: normal;
+}
+
+.sobre-mim button a{
+    color: #fcf6ef;
+}
+
+.sobre-mim button{
+    border: none;
+    background-color: #e96c42;
+    margin-top: 30px;
+    margin-left: 28%;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
 
 
 /* 
