@@ -10,6 +10,7 @@
 }
 
 /* INICIO - PAGE 1 */
+
 .section-1-bg{
     background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #483472 101%);
     background-repeat: no-repeat;
@@ -305,126 +306,75 @@ aside {
         margin-top: 45px;
     }
     .sobre-mim p{
-        font-size: 12px;
+        font-size: 11px;
         width: 500px;
         padding: 15px;
         text-align: center;
     }
 }
 
-/*  - PAGE 3 */
+/* SERVICOS - PAGE 3 */
 
-/* 
-.img {
-    padding-top: 1rem;
+.c-servicos{
+    background-color: #f0835e;
+    width: 100%;
+    padding: 50px;
 }
 
-header img {
-    width: 100px;
-    margin: auto;
-    background-image: linear-gradient(90deg, #FEE5CA 0%, #353131 50%, #FEE5CA 100%);
-    border-radius: 50%;
-    display: flex;
-    padding: 4px;
-    transition: transform .5s;
+.c-servicos h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 10px;
+    font-weight: bold;
 }
 
-
-.img:hover {
-    transform: scale(1.1)
+.c-servicos p{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
 }
 
-header img {
-    width: 50%;
-    border-radius: 50%;
-}
-
-header {
+.c-card{
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
-    align-items: center;
+    margin-top: 35px;
     text-align: center;
-    padding-top: 1rem;
+    flex-wrap: wrap;
 }
 
-.cabecalho-link {
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    cursor: pointer;
-    justify-content: center;
+.card{
+    background-color: #fcf6ef;
+    padding: 50px;
+    box-shadow: 4px 4px 8px black, 4px 4px 2px;
+    margin-top: 35px;
 }
 
-.cabecalho-link a{
-    color: #FEE5CA;
-    font-size: 15px;
+.card img{
+    width: 60px;
+    height: auto;  
 }
 
-.cabecalho-link a:hover{
-    color: #FEE5CA;
-    transition: 0.2s all;
+.card h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #201b2c;
 }
 
-.logo {
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1.5px solid #FEE5CA;
-    color: #FEE5CA;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
+.card h4{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #695947;
+    margin-top: 15px;
 }
 
-button {
-    color: #FEE5CA;
-    background: transparent;
-    border: solid 1px #FEE5CA;
-    padding: 3px;
-    border-radius: 15px;
-    font-size: 12px;
-    width: 100px;
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 
-button:hover{
-    background-color: white;
-    color: black;
-    transition: 0.3s;
+@media screen and (max-width 414px) {
+    .card{
+        margin-top: 35px;
+    }
 }
-
-.container{
-    padding: 150px 0 0 130px;
-}
-
-.text h3{
-    color: #FEE5CA;
-    font-size: 15px;
-}
-
-.text h1{
-    color: #FEE5CA;
-    margin-top: 10px;
-}
-
-.text p{
-    color: #FEE5CA;
-    font-size: 10px;
-    font-weight: 300;
-    margin-top: 10px; 
-}
-
-.redes-sociais a{
-    color: #FEE5CA;
-    padding-top: 5px;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-.btn {
-    margin-top: 10px;
-}
- */
