@@ -325,20 +325,20 @@ aside {
     text-align: center;
     color: white;
     font-size: 70px;
-    padding-top: 10px;
+    padding-top: 2%;
     font-weight: bold;
 }
 
 .c-servicos p{
     text-align: center;
     color: white;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .c-card{
     display: flex;
     justify-content: space-around;
-    margin-top: 35px;
+    margin-top: 4%;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -348,6 +348,7 @@ aside {
     padding: 50px;
     box-shadow: 4px 4px 8px black, 4px 4px 2px;
     margin-top: 35px;
+    cursor: pointer;
 }
 
 .card img{
