@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="script.js"> </script>
     <title>Portifólio - Herbert</title>
 </head>
@@ -68,7 +69,7 @@
         </div>
     </div>
 
-    <section class="c-sobre"  id="sobre">
+    <section class="c-sobre" data-aos="fade-up" id="sobre" >
         <div class="image">
             <img src="./assets/about.svg" alt="Sobre">
         </div>
@@ -90,7 +91,7 @@
         </div>
     </section>
 
-    <section class="c-servicos"  id="servicos">
+    <section class="c-servicos"  data-aos="fade-up" id="servicos" >
         <h1>Serviços</h1>
         <p>Entre em contato e faça seu orçamento</p>
         <div class="c-card">
@@ -119,5 +120,11 @@
             </div>
         </div>
     </section>
+
+<!-- SCRIPT ANIMATION -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
