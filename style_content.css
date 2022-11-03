@@ -287,9 +287,18 @@ aside {
     padding: 10px 50px;
     font-size: 20px;
     cursor: pointer;
+    box-shadow: 4px 4px 4px black, 4px 4px 4px;
+    transition-duration: .9s;
 }
 
+.sobre-mim button:hover{
+    background: #201b2c;
+    transition: 0.8s;
+}
 
+@media screen and (max-width: 414px) {
+    
+}
 
 
 
