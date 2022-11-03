@@ -374,8 +374,8 @@ aside {
     transition-duration: 1s;
 }
 
-@media screen and (max-width 414px) {
-    .card{
+@media screen and (max-width: 414px) {
+    .card {
         margin-top: 35px;
     }
 }
