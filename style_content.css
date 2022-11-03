@@ -11,7 +11,7 @@
 
 /* INICIO - PAGE 1 */
 .section-1-bg{
-    background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #000000 101%);
+    background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #483472 101%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -297,7 +297,19 @@ aside {
 }
 
 @media screen and (max-width: 414px) {
-    
+    .image {
+        width: 350px;
+        height: auto;
+    }
+    .sobre-mim h1{
+        margin-top: 45px;
+    }
+    .sobre-mim p{
+        font-size: 12px;
+        width: 500px;
+        padding: 15px;
+        text-align: center;
+    }
 }
 
 
