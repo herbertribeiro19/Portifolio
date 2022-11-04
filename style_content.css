@@ -380,3 +380,51 @@ aside {
         margin-top: 35px;
     }
 }
+
+/* PROJETOS - PAGE 4 */
+
+.c-projetos{
+    width: 100%;
+    background-color: #fcf6ef;
+    padding: 85px;
+}
+
+.c-projetos h1{
+    text-align: center;
+    font-size: 70px;
+    padding: 2%;
+    font-weight: bold;
+    color:#201b2c;
+}
+
+.c-projetos p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8px;
+    color: #392f4e;
+}
+
+.img-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+.img-projetos img{
+    width: 500px;
+    height: auto;
+    box-shadow: 6px 6px 6px #3f3b3b;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.c-projetos img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    transition-duration: 0.9s;
+    border: solid 2px #180127;
+    border-radius: 10px;
+
+}
