@@ -71,6 +71,7 @@ aside {
     text-align: center;
     gap: 15px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .c-icon span{
