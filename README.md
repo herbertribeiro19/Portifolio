@@ -10,6 +10,7 @@
 - HTML;
 - CSS;
 - Git e Github;
+- JavaScript
 
 ## Contato
 hebert11223@gmail.com
