@@ -118,6 +118,10 @@ aside {
     font-weight: 200;
 }
 
+.main-title button a{
+    color: #fcf6ef;
+}
+
 .main-title button{
     border: none;
     width: 15%;
@@ -350,6 +354,7 @@ aside {
     box-shadow: 4px 4px 8px black, 4px 4px 2px;
     margin-top: 35px;
     cursor: pointer;
+    transition: 0.3s all;
 }
 
 .card img{
@@ -376,6 +381,10 @@ aside {
 }
 
 @media screen and (max-width: 414px) {
+    .c-servicos h1 {
+        font-size: 60px;
+
+    }
     .card {
         margin-top: 35px;
     }
@@ -392,15 +401,14 @@ aside {
 .c-projetos h1{
     text-align: center;
     font-size: 70px;
-    padding: 2%;
+    padding-top: 2%;
     font-weight: bold;
     color:#201b2c;
 }
 
 .c-projetos p{
     text-align: center;
-    font-size: 20px;
-    margin-top: 8px;
+    margin-top: 35px;
     color: #392f4e;
 }
 
@@ -420,10 +428,102 @@ aside {
     border-radius: 20px;
 }
 
-.c-projetos img:hover{
+.img-projetos img:hover{
     transform: scale(1.1);
     transition: 0.5s;
-    transition-duration: 0.9s;
-    border: solid 2px #180127;
-    border-radius: 10px;
+    border: solid 0.5px #9584a0;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 414px) {
+    .c-projetos h1{
+        font-size: 60px;
+    }
+
+    .c-projetos p{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 35px;
+        color: #392f4e;
+    }
+    .img-projetos img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+/* PROJETOS - PAGE 4 */
+
+.c-rodape{
+    width: 100%;
+    background-color: #1c1a22;
+    padding: 50px;
+}
+
+.c-rodape h1{
+    text-align: center;
+    color: #FEE5CA;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.c-rodape p{
+    text-align: center;
+    color: #FEE5CA;
+}
+
+.c-rodape form input:first-child{
+    margin-top: 8px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px 30px 14px 15px;
+    outline: none;
+    border: none;
+    margin-top: 11px;
+    margin-bottom: 40px;
+}
+
+.c-rodape form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #e96c42;
+    color: #FEE5CA;
+    box-shadow: 0px 0px 30px #1c1a22;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    right: 402px;
+    margin-top: 11.1px;
+    margin-bottom: 40px;
+}
+
+.c-rodape form input:last-child:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media screen and (max-width: 414px) {
+    .c-rodape h1{
+        font-size: 20px;
+    }
+
+    .c-rodape p {
+        font-size: 10px;
+    }
+
+    .c-rodape form input:first-child{
+        text-align: left;
+        margin-left: 0;
+        width: 100%;
+    }
+    .c-rodape form input:last-child{
+        right: 50px;
+        width: 100px;
+    }
 }
