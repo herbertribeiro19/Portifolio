@@ -9,6 +9,11 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+/* Retirar rolagem da scrollbar */
+body::-webkit-scrollbar{
+    display: none;
+}
+
 /* INICIO - PAGE 1 */
 
 .section-1-bg{
