@@ -1,6 +1,6 @@
-# Portifólio profissional - Versão de teste
+# Portifólio profissional
 
-![PREVIEW](./.github/.png)
+![PREVIEW](/assets/preview.gif)
 
 > Portifólio Profissional
 
@@ -9,10 +9,16 @@
 ## Tecnologias utilizadas:
 - HTML;
 - CSS;
+- JavaScript;
 - Git e Github;
-- JavaScript
+
+## Plataformas utilizadas:
+- Figma;
+- Photoshop;
+- ScreenToGif;
 
 ## Contato
 hebert11223@gmail.com
+
 
 
