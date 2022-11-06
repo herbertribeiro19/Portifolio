@@ -20,8 +20,6 @@ function send(){
     if(envioMensagem.onclick){
         alert("Mensagem enviada com sucesso!")
         return
-    }else{
-        alert("teste")
     }
 
 }
