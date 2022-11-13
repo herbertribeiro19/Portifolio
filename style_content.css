@@ -478,16 +478,16 @@ aside {
 }
 
 .c-rodape form input{
-    margin-top: 8px;
+    font-size: 13px;
     border-radius: 16px;
     display: inline-block;
     margin-left: 25%;
     width: 50%;
-    padding: 10px 30px 14px 15px;
+    padding: 15px;
     outline: none;
     border: none;
     margin-top: 11px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 #btnsubmit{
@@ -501,7 +501,7 @@ aside {
     justify-content: center;
     background-color: #e96c42;
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .c-icon2 {
