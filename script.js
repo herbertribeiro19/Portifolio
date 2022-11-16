@@ -15,11 +15,11 @@ function abrirmenu(){
 }
 
 function send(){
-    let envioMensagem = document.getElementById('envio')
+    let envioMensagem = document.getElementById('envio');
 
     if(envioMensagem.onclick){
-        alert("Mensagem enviada com sucesso!")
-        return
+        alert("Mensagem enviada com sucesso!");
+        return;
     }
 
 }
