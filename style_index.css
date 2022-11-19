@@ -11,7 +11,7 @@
 
 body {
     overflow: hidden;
-    background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #000000 101%);
+    background: black;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% auto;
@@ -26,7 +26,7 @@ body {
 }
 
 .main{
-    color: #FEE5CA;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .btn{ 
-    background-color: #FEE5CA;
+    background-color: #3cc47c;
     width:10%;
     padding: 16px 0px;
     margin: 20px;
@@ -51,16 +51,18 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    box-shadow: 0px 0px 30px 15px #00000052;
+    box-shadow: 4px 4px 10px 1px #ffffff;
     cursor: pointer;
     transition: transform .8s;
     animation: fromBottom 3.0s backwards;
 }
 
-
+.btn a{
+    color: rgb(0, 0, 0);
+}
 /* ANIMATIONS */
 .btn:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     transform: scale(1.1);
     transition: 1.0s;
 }
@@ -118,6 +120,9 @@ body {
         margin: 20px;
         border: none;
         border-radius: 15px;
+    }
+    .btn a {
+        color: rgb(0, 0, 0);
     }
 }
 
