@@ -33,11 +33,24 @@ aside {
     overflow: hidden;
 }
 
+.section-1-bg img{
+    position: left;
+    height: 40px;
+    width: 40px;
+    margin-top: 4px;
+    margin-left: 10px;
+    transition: 0.5s all;
+}
+
+.section-1-bg img:hover{
+    transform: scale(1.1);
+}
+
 .icon-menu img{
-    width:25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     margin-right: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -101,7 +114,7 @@ aside {
 .main-title h1{
     font-size: 70px;
     color: #ffffff;
-    margin-top: 17%;
+    margin-top: 15%;
     font-family: "Be Vietnam Pro";
     font-weight: bold;
     letter-spacing: 2px;
@@ -117,8 +130,9 @@ aside {
 }
 
 .main-title h5 {
+    margin-top: 20px;
     font-size: 15px;
-    color: #FEE5CA;
+    color: #ffffff;
     font-family: "Be Vietnam Pro";
     letter-spacing: 2px;
     font-weight: 200;
@@ -132,7 +146,7 @@ aside {
 .main-title button{
     border: none;
     width: 15%;
-    margin-top: 60px;
+    margin-top: 50px;
     padding: 8px 5px;
     font-size: 20px;
     background-color: #3cc47c;
