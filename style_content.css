@@ -17,7 +17,7 @@ body::-webkit-scrollbar{
 /* INICIO - PAGE 1 */
 
 .section-1-bg{
-    background-image: linear-gradient(180deg, #201b2c 0%, #392f4e 98.5%, #483472 101%);
+    background: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@ aside {
 }
 
 #barra-menu{
-    background: #FEE5CA;
+    background: #3cc47c;
     height: 100vh;
     width: 0px;
     transition: 0.3s all; 
@@ -54,7 +54,7 @@ aside {
 }
 
 #barra-menu ul li a{
-    color: #201b2c;
+    color: #ffffff;
     text-decoration: none;
     font-size: 15px;
     width: 100%;
@@ -66,7 +66,7 @@ aside {
     border: none;
     padding: 8px;
     border-radius: 15px;
-    background: #f8f3ed;
+    background: #000000;
 }
 
 .c-icon{
@@ -80,36 +80,37 @@ aside {
 }
 
 .c-icon span{
-    color: #201b2c;
+    color: #000000;
 }
 
 .c-icon span:hover {
     transition: 0.2s;
     transform: 0.5s;
-    color: #b99ff6;
+    color: #ffffff;
 }
 
 .main-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 17%;
     flex-wrap: wrap;
     animation: fromBottom 2.0s backwards;
 }
 
 .main-title h1{
     font-size: 70px;
-    color: #FEE5CA;
-    margin-top: 15%;
+    color: #ffffff;
+    margin-top: 17%;
     font-family: "Be Vietnam Pro";
     font-weight: bold;
     letter-spacing: 2px;
+
 }
 
 .main-title h2 {
     font-size: 50px;
-    color: #f0835e;
+    color: #3cc47c;
     font-family: "Be Vietnam Pro";
     font-weight: bold;
     letter-spacing: 2px;
@@ -124,7 +125,8 @@ aside {
 }
 
 .main-title button a{
-    color: #fcf6ef;
+    color: #ffffff;
+    width: 800px;
 }
 
 .main-title button{
@@ -133,16 +135,16 @@ aside {
     margin-top: 60px;
     padding: 8px 5px;
     font-size: 20px;
-    background-color: #f0835e;
+    background-color: #3cc47c;
     border-radius: 50px;
-    color: #FEE5CA;
+    color: #000000;
     cursor: pointer;
     transition: 1.0s;
-    box-shadow: 4px 4px 8px black;
+    box-shadow: 4px 4px 8px #529a74;
 }
 
 .main-title button:hover{
-    border: solid 0.5px #FEE5CA;
+    border: solid 0.5px #FEE5AC;
     transition: 1.0s;
     background: transparent;
 }
@@ -154,23 +156,6 @@ aside {
     gap: 40px;
     cursor: pointer;
     transition: 1.0s;
-}
-
-.title h3{
-    font-size: 35px;
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-.title p {
-    font-size: 15px;
-    margin-top: 15px;
-    font-weight: normal;
-}
-
-.title:hover{
-    transition: 1.5s;
-    transform: scale(1.1);
 }
 
 /* ANIMATIONS - LAG */
@@ -187,31 +172,47 @@ aside {
 }
 
 @media screen and (max-width: 414px) {
-    .section-1-bg{
-        height: 1000px;
-        width: 415px;
+    .main-title{
+        margin-left: 15%;
     }
-
     .main-title h1{
-        font-size: 15px;
-        margin-top: 65%;
-        margin-right: 17%;
+        margin-left: 12%;
+        font-size: 50px;
+        margin-top: 60%;
     }
     .main-title h2{
-        font-size: 15px;
-        margin-right: 1%;
+        font-size: 30px;
+        margin-top: 40px;
     }
     .main-title h5{
-        font-size: 15px;
+        font-size: 20px;
+        margin-top: 40px;
     }
-    .main-title button{
+    .main-title button{ 
+        padding: 14px;
+        font-size: 22px;
         width: 150px;
+        margin-top: 70px;
+        margin-left: 20%;
     }
-    .numeros{
-        margin-right: 25%;
-        margin-top: 50%;
+    #barra-menu ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        width: 100%;
+        font-weight: 400;
+        transition: 0.3s;
     }
-    
+    .c-icon{
+        margin-top: 12%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -243,7 +244,7 @@ aside {
 /* ABOUT ME - PAGE 2 */
 
 .c-sobre{
-    background-color: #fcf6ef;
+    background-color: #42a470;
     display: flex;
     justify-content: space-around;
     padding: 150px 0px;
@@ -259,14 +260,14 @@ aside {
  }
 
 .sobre-mim h1{
-    color: #201b2c;
+    color: #000000;
     text-align: center;
     font-size: 55px;
     font-weight: bold;
 }
 
 .sobre-mim h4{
-    color: #201b2c;
+    color: #000000;
     text-align: center;
     font-size: 25px;
     margin-top: 30px;
@@ -274,11 +275,11 @@ aside {
 }
 
 .sobre-mim span {
-    color: #e96c42;
+    color: #ffffff;
 }
 
 .sobre-mim p {
-    color: #201b2c;
+    color: #ffffff;
     text-align: center;
     font-size: 15px;
     margin-top: 25px;
@@ -291,11 +292,12 @@ aside {
 
 .sobre-mim button{
     border: none;
-    background-color: #e96c42;
+    background-color: #000000;
     margin-top: 30px;
     margin-left: 28%;
     border-radius: 50px;
-    padding: 10px 50px;
+    padding: 14px 14px;
+    margin-left: 35%;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 4px 4px 4px black, 4px 4px 4px;
@@ -303,7 +305,7 @@ aside {
 }
 
 .sobre-mim button:hover{
-    background: #201b2c;
+    background: #1e1d1f;
     transition: 0.8s;
 }
 
@@ -326,7 +328,7 @@ aside {
 /* SERVICOS - PAGE 3 */
 
 .c-servicos{
-    background-color: #f0835e;
+    background-color: #000000;
     width: 100%;
     padding: 50px;
 }
@@ -342,7 +344,7 @@ aside {
 .c-servicos p{
     text-align: center;
     color: white;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .c-card{
@@ -354,12 +356,13 @@ aside {
 }
 
 .card{
-    background-color: #fcf6ef;
+    background-color: #3cc47c;
     padding: 50px;
     box-shadow: 4px 4px 8px black, 4px 4px 2px;
     margin-top: 35px;
     cursor: pointer;
     transition: 0.3s all;
+    margin-bottom: 24px;
 }
 
 .card img{
@@ -370,13 +373,13 @@ aside {
 .card h3{
     font-size: 20px;
     font-weight: 700;
-    color: #201b2c;
+    color: #000000;
 }
 
 .card h4{
     font-size: 20px;
     font-weight: lighter;
-    color: #695947;
+    color: #ffffff;
     margin-top: 15px;
 }
 
@@ -399,7 +402,7 @@ aside {
 
 .c-projetos{
     width: 100%;
-    background-color: #fcf6ef;
+    background-color: #42a470;
     padding: 85px;
 }
 
@@ -408,13 +411,13 @@ aside {
     font-size: 70px;
     padding-top: 2%;
     font-weight: bold;
-    color:#201b2c;
+    color:#000000;
 }
 
 .c-projetos p{
     text-align: center;
     margin-top: 35px;
-    color: #392f4e;
+    color: #ffffff;
 }
 
 .img-projetos{
@@ -428,7 +431,7 @@ aside {
 .img-projetos img{
     width: 500px;
     height: auto;
-    box-shadow: 6px 6px 6px #3f3b3b;
+    box-shadow: 6px 6px 6px #000000;
     cursor: pointer;
     border-radius: 20px;
 }
@@ -449,7 +452,7 @@ aside {
         font-size: 15px;
         text-align: center;
         margin-top: 35px;
-        color: #392f4e;
+        color: #ffffff;
     }
     .img-projetos img {
         width: 350px;
@@ -461,20 +464,20 @@ aside {
 
 .c-rodape{
     width: 100%;
-    background-color: #1c1a22;
+    background-color: #000000;
     padding: 50px;
 }
 
 .c-rodape h1{
     text-align: center;
-    color: #FEE5CA;
+    color: #ffffff;
     font-weight: lighter;
     padding-bottom: 20px;
 }
 
 .c-rodape p{
     text-align: center;
-    color: #FEE5CA;
+    color: #ffffff;
 }
 
 .c-rodape form input{
@@ -499,7 +502,7 @@ aside {
     width: 8%;
     padding: 4px;
     justify-content: center;
-    background-color: #e96c42;
+    background-color: #3cc47c;
     color: #ffffff;
     margin-bottom: 40px;
 }
@@ -524,7 +527,7 @@ aside {
 .c-icon2 span:hover {
     transition: 0.2s;
     transform: 0.5s;
-    color: #e96c42;
+    color: #3cc47c;
 }
 
 .c-rodape form input{
