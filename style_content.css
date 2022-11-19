@@ -183,10 +183,12 @@ aside {
     .main-title h2{
         font-size: 30px;
         margin-top: 40px;
+        margin-right: 12%;
     }
     .main-title h5{
         font-size: 20px;
         margin-top: 40px;
+        margin-right: 12%;
     }
     .main-title button{ 
         padding: 14px;
@@ -322,6 +324,9 @@ aside {
         width: 500px;
         padding: 15px;
         text-align: center;
+    }
+    .sobre-mim button {
+        margin-left: 34%;
     }
 }
 

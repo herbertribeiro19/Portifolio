@@ -60,6 +60,7 @@ body {
 .btn a{
     color: rgb(0, 0, 0);
 }
+
 /* ANIMATIONS */
 .btn:hover {
     background-color: rgb(255, 255, 255);
@@ -114,7 +115,7 @@ body {
     }
 
     .btn {
-        background-color: #FEE5CA;
+        background-color: #3cc47c;
         width: 30%;
         padding: 16px 0px;
         margin: 20px;
