@@ -51,7 +51,7 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    box-shadow: 4px 4px 10px 1px #ffffff;
+    box-shadow: 4px 4px 8px #529a74;
     cursor: pointer;
     transition: transform .8s;
     animation: fromBottom 3.0s backwards;

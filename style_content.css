@@ -189,26 +189,26 @@ aside {
     .main-title{
     }
     .main-title h1{
-        font-size:36px;
+        font-size:30px;
         margin-top: 60%;
-        margin-left: 2%;
+        margin-right: 3%;
     }
     .main-title h2{
         font-size: 26px;
         margin-top: 40px;
-        margin-left: 2%;
+        margin-right: 3%;
     }
     .main-title h5{
         font-size: 16px;
         margin-top: 40px;
-        margin-left: 2%;
+        margin-right: 3%;
     }
     .main-title button{ 
         padding: 14px;
         font-size: 22px;
         width: 150px;
         margin-top: 70px;
-        margin-left: 16%;
+        margin-left: 15%;
     }
     #barra-menu ul li a{
         color: #ffffff;
