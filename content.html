@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style_content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="script.js"> </script>
+    
     <title>Portifólio Profissional</title>
     <link rel="icon" href="./assets/logoicon.png">
     <!-- Google tag (gtag.js) -->
@@ -123,12 +124,27 @@
     <section class="c-projetos" data-aos="fade-up" id="projetos">
         <h1>Projetos</h1>
         <p>Abaixo será possível visualizar alguns projetos desenvolvidos por mim</p>
-        <div class="img-projetos" data-aos="fade-up">
-            <a target="_blank" href="https://herbertribeiro19.github.io/Login/"> <img src="./assets/projeto1.png" data-aos="fade-left" alt="Login - Page"></a>
-            <a target="_blank" href="https://herbertribeiro19.github.io/site-aniversario/"> <img src="./assets/projeto2.png" data-aos="fade-right" alt="Aniversário de namoro"> </a>
-            <a target="_blank" href="https://herbertribeiro19.github.io/NLW/"> <img src="./assets/projeto3.png" data-aos="fade-left" alt="NLW - eSports" ></a>
-            <a target="_blank" href="https://herbertribeiro19.github.io/Cumply/"> <img src="./assets/projeto4.png" data-aos="fade-right" alt="Cumply"></a>
+
+    <div class="img-projetos" data-aos="fade-up">
+        <div class="swiper-projetos">
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/GoW/"> <img
+                                src="./assets/projeto5.png" data-aos="fade-right" alt="Cumply"></a></div>
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/Valhalla/"> <img
+                                src="./assets/projeto6.png" data-aos="fade-left" alt="Valhalla"></a></div>
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/Cumply/"> <img
+                                src="./assets/projeto4.png" data-aos="fade-right" alt="Cumply"></a></div>
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/NLW/"> <img
+                                src="./assets/projeto3.png" data-aos="fade-left" alt="NLW - eSports"></a></div>
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/site-aniversario/"> <img
+                                src="./assets/projeto2.png" data-aos="fade-right" alt="Aniversário de namoro"> </a></div>
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/Login/"> <img
+                                src="./assets/projeto1.png" data-aos="fade-right" alt="Login-Page"> </a></div>
+                    <div class="swiper-slide"><a target="_blank" href="https://herbertribeiro19.github.io/Relogio/"> <img
+                                src="./assets/projeto7.png" data-aos="fade-right" alt="Relogio"> </a></div>
+            </div>
         </div>
+    </div>
     </section>
 
     <section class="c-rodape" data-aos="fade-up">
@@ -154,10 +170,11 @@
     </section>
 
 <!-- SCRIPT ANIMATION -->
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="script.js"> </script>
 </body>
 </html>

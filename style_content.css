@@ -265,6 +265,7 @@ aside {
     padding: 150px 0px;
     width: 100%;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .image{
@@ -349,6 +350,7 @@ aside {
     background-color: #000000;
     width: 100%;
     padding: 50px;
+    overflow: hidden;
 }
 
 .c-servicos h1{
@@ -422,6 +424,7 @@ aside {
     width: 100%;
     background-color: #42a470;
     padding: 85px;
+    overflow: hidden;
 }
 
 .c-projetos h1{
@@ -438,20 +441,37 @@ aside {
     color: #ffffff;
 }
 
-.img-projetos{
-    display: flex;
-    flex-wrap: wrap;
+.img-projetos {
+    position:static;
     justify-content: center;
-    gap: 70px;
+    gap: 0px;
     margin-top: 80px;
 }
 
 .img-projetos img{
-    width: 500px;
+    width: 800px;
     height: auto;
     box-shadow: 6px 6px 6px #000000;
     cursor: pointer;
     border-radius: 20px;
+}
+
+.swiper-projetos{
+    width: 1000px;
+    position: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.swiper-wrapper{
+    align-items: center;
+}
+
+.swiper-slide{
+    margin-top: 32px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    border-radius: 50px;
 }
 
 .img-projetos img:hover{
@@ -460,30 +480,105 @@ aside {
     border: solid 0.5px #9584a0;
     border-radius: 20px;
 }
+        /* @media (min-width: 1200px) {
+            .img-projetos img {
+                width: 700px;
+            }
+                
+            .swiper-projetos {
+                width: 1100px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        } */
 
-@media screen and (max-width: 414px) {
-    .c-projetos h1{
-        font-size: 60px;
-    }
 
-    .c-projetos p{
-        font-size: 15px;
-        text-align: center;
-        margin-top: 35px;
-        color: #ffffff;
-    }
-    .img-projetos img {
-        width: 350px;
-        height: auto;
-    }
-}
+        @media (max-width: 1200px) {
+            .img-projetos img {
+                width: 630px;
+            }
+            
+            .swiper-projetos {
+                width: 1000px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+    
+        @media (max-width: 991px) {
+            .c-projetos {
+                    overflow: hidden;
+                }
+            .img-projetos img {
+                    width: 400px;
+                }
+            
+                .swiper-projetos {
+                    width: 600px;
+                    cursor: pointer;
+                    border-radius: 10px;
+                }
+        }
+    
+        @media (max-width: 560px) {
+            .c-projetos{
+                overflow: hidden;
+            }
 
-/* PROJETOS - PAGE 4 */
+            .img-projetos{
+                margin-top: 4rem;
+            }
+            .c-projetos h1 {
+                font-size: 60px;
+            }
+        
+            .c-projetos p {
+                font-size: 15px;
+                text-align: center;
+                margin-top: 35px;
+                color: #ffffff;
+            }
+        
+            .img-projetos img {
+                width: 150px;
+            }
+        
+            .swiper-projetos {
+                width: 200px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+
+        @media (max-width: 414px) {
+            .c-projetos h1{
+                font-size: 60px;
+            }
+
+            .c-projetos p{
+                font-size: 15px;
+                text-align: center;
+                margin-top: 35px;
+                color: #ffffff;
+            }
+            .img-projetos img {
+                width: 150px;
+            }
+                
+            .swiper-projetos {
+                width: 200px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+
+/* RODAPE - PAGE 5 */
 
 .c-rodape{
     width: 100%;
     background-color: #000000;
     padding: 50px;
+    overflow: hidden;
 }
 
 .c-rodape h1{
