@@ -11,6 +11,7 @@
 - CSS;
 - JavaScript;
 - Git e Github;
+- SwiperJS API;
 
 ## Plataformas utilizadas:
 - Figma;
