@@ -562,11 +562,11 @@ aside {
                 color: #ffffff;
             }
             .img-projetos img {
-                width: 150px;
+                width: 220px;
             }
                 
             .swiper-projetos {
-                width: 200px;
+                width: 300px;
                 cursor: pointer;
                 border-radius: 10px;
             }
