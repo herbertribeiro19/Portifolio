@@ -71,9 +71,6 @@ function send(){
                 slidesPerView: 0,
             },
         },
-        pagination: {
-            el: ".swiper-pagination",
-        },
 
     });
 
