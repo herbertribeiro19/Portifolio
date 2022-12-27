@@ -633,7 +633,7 @@ aside {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .c-icon2 span {
