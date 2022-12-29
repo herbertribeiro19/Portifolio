@@ -118,7 +118,21 @@ aside {
     font-family: "Be Vietnam Pro";
     font-weight: bold;
     letter-spacing: 2px;
+}
 
+.main-title h1::after{
+    content: '_';  
+    opacity: 1;
+    animation: pisca .9s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
 }
 
 .main-title h2 {
@@ -127,6 +141,22 @@ aside {
     font-family: "Be Vietnam Pro";
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.main-title h2::after {
+    content: '_';
+    opacity: 2;
+    animation: pisca2 .7s infinite;
+}
+
+@keyframes pisca2 {
+    0%,100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
 
 .main-title h5 {

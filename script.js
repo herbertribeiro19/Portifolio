@@ -1,3 +1,19 @@
+//Funcão de máquina de escrever
+function typeWriter(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 115 * i);
+    });
+}
+const titulo = document.querySelector('h1');
+typeWriter(titulo);
+
+typeWriter(document.querySelector('h2'));
+
+//-----------------------------------------
+
+//Função de abrir menu lateral
 function abrirmenu(){
     let BarraMenuAberto = document.getElementById('barra-menu')
 
@@ -13,7 +29,9 @@ function abrirmenu(){
         BarraMenuAberto.style.height = "0px";
     }
 }
+//-----------------------------------------
 
+//Função enviar feedback
 function send(){
     let envioMensagem = document.getElementById('envio');
 
@@ -22,6 +40,41 @@ function send(){
         return;
     }
 }
+//-----------------------------------------
+
+//Função swiperJS
+var swiper = new Swiper(".swiper-projetos", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 1,
+    loop: true,
+    coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            centeredSlides: false,
+        },
+        768: {
+            slidesPerView: 0,
+        },
+        991: {
+            slidesPerView: 2,
+        },
+        1200: {
+            slidesPerView: 0,
+        },
+    },
+
+});
+//-------------------------------------
+
 
     //1 var swiper = new Swiper(".swiper-projetos", {
     //     effect: "cards",
@@ -43,34 +96,5 @@ function send(){
     //     // },
     // });
 
-    var swiper = new Swiper(".swiper-projetos", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 1,
-        loop: true,
-        coverflowEffect: {
-            rotate: 20,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: false,
-        },
-        breakpoints: {
-            320: {
-                slidesPerView: 1,
-                centeredSlides: false,
-            },
-            768: {
-                slidesPerView: 0,
-            },
-            991: {
-                slidesPerView: 2,
-            },
-            1200: {
-                slidesPerView: 0,
-            },
-        },
 
-    });
 
