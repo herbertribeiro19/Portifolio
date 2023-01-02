@@ -48,7 +48,7 @@ var swiper = new Swiper(".swiper-projetos", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 1,
-    loop: true,
+    loop: false,
     coverflowEffect: {
         rotate: 20,
         stretch: 0,
@@ -68,10 +68,11 @@ var swiper = new Swiper(".swiper-projetos", {
             slidesPerView: 2,
         },
         1200: {
-            slidesPerView: 0,
+            slidesPerView: 1.3,
+            centeredSlides: true,
+            slideShadows: true,
         },
     },
-
 });
 //-------------------------------------
 
