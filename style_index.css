@@ -19,6 +19,7 @@ body {
 }
 
 .animation {
+    margin-top: 20px;
     width: 25vw;
     cursor: pointer;
     transition: transform 1.0s;
@@ -42,9 +43,9 @@ body {
 
 .btn{ 
     background-color: #3cc47c;
-    width:10%;
+    width: 8%;
     padding: 16px 0px;
-    margin: 20px;
+    margin: 5px;
     border: none;
     border-radius: 10px;
     outline: none;
@@ -59,6 +60,7 @@ body {
 
 .btn a{
     color: rgb(0, 0, 0);
+    font-weight: 800;
 }
 
 /* ANIMATIONS */
@@ -66,11 +68,6 @@ body {
     background-color: rgb(255, 255, 255);
     transform: scale(1.1);
     transition: 1.0s;
-}
-
-.text :hover{
-    transform: scale(1.1);
-    transition: 0.5s;
 }
 
 .animation:hover {
@@ -91,6 +88,46 @@ body {
 }
 
 /* RESPONSIVIDADE - Celular tela */
+@media screen and (max-width: 800px) {
+    .text {
+        padding-top: 2px;
+    }
+
+    .text h3 {
+        font-size: 35px;
+        margin-top: 1%;
+    }
+
+    .text h1 {
+        font-size:30px;
+        margin-top: 5%;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    
+    .text{
+        padding-top: 100px;
+    }
+
+    .animation {
+        padding-top: 30px;
+        width: 40vw;
+    }
+
+    .btn {
+        background-color: #3cc47c;
+        width: 50%;
+        padding: 16px 0px;
+        margin: 20px;
+        border: none;
+        border-radius: 15px;
+    }
+    .btn a {
+        color: rgb(0, 0, 0);
+    }
+}
+
 @media screen and (max-width: 414px) {
     .text h3 {
         font-size: 35px;
@@ -127,7 +164,7 @@ body {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
     .text h3 {
         font-size: 25px;
         margin-top: 1%;
