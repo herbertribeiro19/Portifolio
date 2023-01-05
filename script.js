@@ -47,7 +47,7 @@ var swiper = new Swiper(".swiper-projetos", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 1,
+    slidesPerView: 1.5,
     loop: false,
     coverflowEffect: {
         rotate: 20,
@@ -65,7 +65,7 @@ var swiper = new Swiper(".swiper-projetos", {
             slidesPerView: 0,
         },
         991: {
-            slidesPerView: 2,
+            slidesPerView: 1.7,
         },
         1200: {
             slidesPerView: 1.3,

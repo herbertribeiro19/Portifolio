@@ -479,7 +479,7 @@ aside {
 }
 
 .img-projetos img{
-    width: 800px;
+    width: 900px;
     height: auto;
     box-shadow: 6px 6px 6px #000000;
     cursor: pointer;
@@ -487,7 +487,7 @@ aside {
 }
 
 .swiper-projetos{
-    width: 1000px;
+    width: 1300px;
     position: center;
     cursor: pointer;
     border-radius: 50px;
