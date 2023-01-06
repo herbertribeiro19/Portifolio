@@ -17,6 +17,7 @@
 - Figma;
 - Photoshop;
 - ScreenToGif;
+- Canva
 
 ## Contato
 hebert11223@gmail.com
