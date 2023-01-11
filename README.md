@@ -1,8 +1,8 @@
-# Portifólio profissional
+# Portfólio profissional
 
 ![PREVIEW](/assets/preview.gif)
 
-> Portifólio Profissional
+> Portfólio Profissional
 
 [Clique aqui para acessar](https://herbertribeiro19.github.io/Portifolio/)
 
