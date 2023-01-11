@@ -165,7 +165,7 @@ body {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
     .text h3 {
         font-size: 25px;
         margin-top: 1%;
