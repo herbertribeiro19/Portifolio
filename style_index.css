@@ -168,7 +168,7 @@ body {
 @media screen and (max-width: 375px) {
     .text h3 {
         font-size: 25px;
-        margin-top: 1%;
+        margin-top: 2px;
     }
 
     .text h1 {
@@ -185,15 +185,15 @@ body {
     }
 
     .animation {
-        padding-top: 20px;
-        width: 50vw;
+        padding-top: 10px;
+        width: 40vw;
     }
 
     .btn {
         background-color: #FEE5CA;
         width: 30%;
         padding: 16px 0px;
-        margin: 20px;
+        margin: 16px;
         border: none;
         border-radius: 15px;
     }
