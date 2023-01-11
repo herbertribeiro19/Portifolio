@@ -130,24 +130,24 @@ body {
 
 @media screen and (max-width: 414px) {
     .text h3 {
-        font-size: 35px;
-        margin-top: 1%;
+        font-size: 31px;
+        margin-top: 2px;
     }
 
     .text h1 {
-        font-size:30px;
+        font-size: 28px;
         margin-top: 15%;
     }
     .text p{
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .text{
-        padding-top: 100px;
+        padding-top: 90px;
     }
 
     .animation {
-        padding-top: 50px;
+        padding-top: 40px;
         width: 70vw;
     }
 
@@ -165,7 +165,7 @@ body {
     }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 375px) {
     .text h3 {
         font-size: 25px;
         margin-top: 1%;
