@@ -202,6 +202,18 @@ aside {
     transition: 1.0s;
 }
 
+.downscroll{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    transition: 0.9s all;
+}
+
+.down{
+    transition: 1.0s all;
+}
+
 /* ANIMATIONS - LAG */
 @keyframes fromBottom {
     from {
