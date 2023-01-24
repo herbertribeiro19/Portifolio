@@ -206,7 +206,7 @@ aside {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 10.0rem;
     transition: 0.9s all;
 }
 
@@ -227,9 +227,17 @@ aside {
     }
 }
 
-@media screen and (max-width: 414px) {
-    .main-title{
+@media screen and (max-width: 1069px) {
+    .downscroll{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5.0rem;
+        transition: 0.9s all;
     }
+}
+
+@media screen and (max-width: 414px) {
     .main-title h1{
         font-size:30px;
         margin-top: 60%;
