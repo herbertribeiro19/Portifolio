@@ -463,7 +463,6 @@ aside {
 @media screen and (max-width: 414px) {
     .c-servicos h1 {
         font-size: 60px;
-
     }
     .c-card{
         gap: 5px;
@@ -471,10 +470,6 @@ aside {
     .card {
         margin-top: 15px;
     }
-
-
-
-    
 }
 
 /* PROJETOS - PAGE 4 */
