@@ -465,9 +465,14 @@ aside {
         font-size: 60px;
 
     }
-    .card {
-        margin-top: 35px;
+    .c-card{
+        gap: 5px;
     }
+    .card {
+        margin-top: 15px;
+    }
+
+
 
     
 }
