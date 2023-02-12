@@ -419,25 +419,27 @@ aside {
 
 .c-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 4%;
     text-align: center;
     flex-wrap: wrap;
+    gap: 50px;
 }
 
 .card{
     background-color: #3cc47c;
     padding: 50px;
-    box-shadow: 4px 4px 8px black, 4px 4px 2px;
+    box-shadow: 4px 4px 8px rgb(65, 53, 53), 4px 4px 2px;
     margin-top: 35px;
     cursor: pointer;
     transition: 0.3s all;
     margin-bottom: 24px;
+    border-radius: 10px;
 }
 
 .card img{
     width: 60px;
-    height: auto;  
+    height: auto;
 }
 
 .card h3{
@@ -466,6 +468,8 @@ aside {
     .card {
         margin-top: 35px;
     }
+
+    
 }
 
 /* PROJETOS - PAGE 4 */
