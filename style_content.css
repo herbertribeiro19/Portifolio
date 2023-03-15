@@ -696,7 +696,7 @@ a {
                 color: #ffffff;
             }
             .img-projetos img {
-                width: 220px;
+                width: 250px;
             }
                 
             .swiper-projetos {
@@ -707,12 +707,12 @@ a {
 
             .card-character .image{
                 /* position: relative; */
-                width: 250px;
-                height: 160px;
+                width: 230px;
+                height: 150px;
             }
             .card-character .image img {
-                width: 250px;
-                height: 160px;
+                width: 230px;
+                height: 150px;
             }
 
             .card-character .image button {
