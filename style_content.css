@@ -514,7 +514,6 @@ aside {
     width: 1300px;
     position: center;
     cursor: pointer;
-    border-radius: 50px;
 }
 
 .swiper-wrapper{
@@ -525,28 +524,62 @@ aside {
     margin-top: 32px;
     border-radius: 20px;
     margin-bottom: 60px;
-    border-radius: 50px;
 }
 
-.img-projetos img:hover{
+
+.card-character {
+    width: 100%;
+    max-width: 200rem;
+    transition: all .3s ease;
+}
+
+.card-character .image{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 2.4rem;
+    border-radius: 15px 2px 15px 2px;
+    transition: all .7s ease-in;
+}
+.card-character .image img {
+    width: 1000px;
+    height: 600px;
+    object-fit: fill;
+    border-radius: 15px 2px 15px 2px;
+}
+
+.card-character .image button {
+    position: absolute;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px 5px 15px 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2rem;
+    bottom: 0;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+a {
+    color: black;
+}
+
+.card-character:hover .image{
     transform: scale(1.1);
-    transition: 0.5s;
-    border: solid 0.5px #9584a0;
-    border-radius: 20px;
 }
 
-        /* @media (min-width: 1200px) {
-            .img-projetos img {
-                width: 700px;
-            }
-                
-            .swiper-projetos {
-                width: 1100px;
-                cursor: pointer;
-                border-radius: 10px;
-            }
-        } */
-
+.card-character:hover .image button {
+    opacity: 1;
+    bottom: 5.7rem;
+}
 
         @media (max-width: 1200px) {
             .img-projetos img {
@@ -572,6 +605,28 @@ aside {
                     width: 600px;
                     cursor: pointer;
                     border-radius: 10px;
+                }
+                .card-character .image{
+                    /* position: relative; */
+                    width: 400px;
+                    height: 280px;
+                }
+    
+                .card-character .image img {
+                    width: 400px;
+                    height: 280px;
+                }
+    
+                .card-character .image button {
+                    position: absolute;
+                    padding: 15px;
+                    font-size: 12px;
+                    line-height: 15px;
+                    transition: all .3s ease;
+                }
+    
+                .card-character:hover .image button {
+                    bottom: 1rem;
                 }
         }
     
@@ -603,6 +658,30 @@ aside {
                 cursor: pointer;
                 border-radius: 10px;
             }
+
+            
+            .card-character .image{
+                /* position: relative; */
+                width: 350px;
+                height: 200px;
+            }
+
+            .card-character .image img {
+                width: 350px;
+                height: 200px;
+            }
+
+            .card-character .image button {
+                position: absolute;
+                padding: 15px;
+                font-size: 12px;
+                line-height: 15px;
+                transition: all .3s ease;
+            }
+
+            .card-character:hover .image button {
+                bottom: 1rem;
+            }
         }
 
         @media (max-width: 414px) {
@@ -624,6 +703,28 @@ aside {
                 width: 300px;
                 cursor: pointer;
                 border-radius: 10px;
+            }
+
+            .card-character .image{
+                /* position: relative; */
+                width: 250px;
+                height: 160px;
+            }
+            .card-character .image img {
+                width: 250px;
+                height: 160px;
+            }
+
+            .card-character .image button {
+                position: absolute;
+                padding: 10px 10px;
+                font-size: 12px;
+                line-height: 15px;
+                transition: all .3s ease;
+            }
+
+            .card-character:hover .image button {
+                bottom: 1rem;
             }
         }
 
