@@ -25,7 +25,7 @@ body::-webkit-scrollbar{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 
 header{
@@ -86,9 +86,9 @@ aside {
 
 #barra-menu ul li a:hover{
     border: none;
-    padding: 8px;
-    border-radius: 15px;
-    background: #000000;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    background: #10101a;
 }
 
 .c-icon{
@@ -223,7 +223,11 @@ aside {
 }
 
 .menu-home ul li:hover{
-    background-color: #322c8e;
+    background: #322c8e;
+    border: none;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    transform: scale(1.1);
 }
 
 .menu-home li a{
