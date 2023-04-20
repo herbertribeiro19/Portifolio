@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Inter:wght@400;900&family=Noto+Sans:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Inter:wght@400;900&family=Noto+Sans:wght@400;700&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,700&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +8,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    /* font-family: 'Be Vietnam Pro', sans-serif; */
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 /* Retirar rolagem da scrollbar */
@@ -17,12 +20,18 @@ body::-webkit-scrollbar{
 /* INICIO - PAGE 1 */
 
 .section-1-bg{
-    background: black;
+    background: #10101a;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+}
+
+header{
+    background-color: #322c8e;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 20px 4px #;
 }
 
 aside {
@@ -56,7 +65,7 @@ aside {
 }
 
 #barra-menu{
-    background: #3cc47c;
+    background: #322c8e;
     height: 100vh;
     width: 0px;
     transition: 0.3s all; 
@@ -115,9 +124,9 @@ aside {
     font-size: 70px;
     color: #ffffff;
     margin-top: 15%;
-    font-family: "Be Vietnam Pro";
+    font-family: "Source Code Pro";
+    letter-spacing: 1px;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .main-title h1::after{
@@ -137,8 +146,8 @@ aside {
 
 .main-title h2 {
     font-size: 50px;
-    color: #3cc47c;
-    font-family: "Be Vietnam Pro";
+    color: #322c8e;
+    font-family: "Source Code Pro";
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -179,12 +188,12 @@ aside {
     margin-top: 50px;
     padding: 8px 5px;
     font-size: 20px;
-    background-color: #3cc47c;
-    border-radius: 50px;
+    background-color: #322c8e;
+    border-radius: 20px 0px 20px 0px;
     color: #000000;
     cursor: pointer;
     transition: 1.0s;
-    box-shadow: 4px 4px 8px #529a74;
+    box-shadow: 4px 4px 8px #322c8e;
 }
 
 .main-title button:hover{
@@ -193,13 +202,32 @@ aside {
     background: transparent;
 }
 
-.numeros{
+.menu-home{
+    padding-top: 20px;
+}
+
+.menu-home ul{
     display: flex;
-    margin-top: 35px;
-    color: #FEE5CA;
-    gap: 40px;
-    cursor: pointer;
-    transition: 1.0s;
+    justify-content: center;
+    /* margin-left: 17%; */
+    align-items:start;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 60px;
+}
+
+.menu-home ul li{
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    transition: .6s;
+}
+
+.menu-home ul li:hover{
+    background-color: #322c8e;
+}
+
+.menu-home li a{
+    color: white;
 }
 
 .downscroll{
@@ -309,31 +337,39 @@ aside {
 /* ABOUT ME - PAGE 2 */
 
 .c-sobre{
-    background-color: #42a470;
+    background-color: #10101a;
     display: flex;
     justify-content: space-around;
-    padding: 150px 0px;
+    padding: 100px 0px;
     width: 100%;
     flex-wrap: wrap;
     overflow: hidden;
 }
 
 .image{
-    width: 400px;
+    border-radius: 0px 20px 0px 20px;
+    width: 600px;
     height: auto;
     cursor: pointer;
     box-shadow: 0px 0px 40px black;
- }
+}
+
+.sobre-mim{
+    background-color: rgb(191, 191, 191);
+    border-radius: 40px 0px 40px 0px;
+    padding: 70px;
+    box-shadow: 4px 8px 10px #322c8e, 4px 4px 2px;
+}
 
 .sobre-mim h1{
-    color: #000000;
+    color: #322c8e;
     text-align: center;
     font-size: 55px;
     font-weight: bold;
 }
 
 .sobre-mim h4{
-    color: #000000;
+    color: #1e1d1f;
     text-align: center;
     font-size: 25px;
     margin-top: 30px;
@@ -341,15 +377,15 @@ aside {
 }
 
 .sobre-mim span {
-    color: #ffffff;
+    color: #322c8e;
 }
 
 .sobre-mim p {
-    color: #ffffff;
+    color: #1e1d1f;
     text-align: center;
     font-size: 15px;
     margin-top: 25px;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .sobre-mim button a{
@@ -358,10 +394,10 @@ aside {
 
 .sobre-mim button{
     border: none;
-    background-color: #000000;
+    background-color: #1e1d1f;
     margin-top: 30px;
     margin-left: 28%;
-    border-radius: 50px;
+    border-radius: 20px 0px 20px 0px;
     padding: 14px 14px;
     margin-left: 35%;
     font-size: 20px;
@@ -397,9 +433,9 @@ aside {
 /* SERVICOS - PAGE 3 */
 
 .c-servicos{
-    background-color: #000000;
+    background-color: #10101a;
     width: 100%;
-    padding: 50px;
+    padding: 150px;
     overflow: hidden;
 }
 
@@ -423,18 +459,18 @@ aside {
     margin-top: 4%;
     text-align: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 80px;
 }
 
 .card{
-    background-color: #3cc47c;
+    background-color: rgb(191, 191, 191);
     padding: 50px;
-    box-shadow: 4px 4px 8px rgb(65, 53, 53), 4px 4px 2px;
+    box-shadow: 4px 4px 10px #322c8e, 4px 4px 10px;
     margin-top: 35px;
     cursor: pointer;
     transition: 0.3s all;
     margin-bottom: 24px;
-    border-radius: 10px;
+    border-radius: 20px 0px 20px 0px;
 }
 
 .card img{
@@ -444,14 +480,13 @@ aside {
 
 .card h3{
     font-size: 20px;
-    font-weight: 700;
-    color: #000000;
+    font-weight: 600;
+    color: #1e1d1f;
 }
 
 .card h4{
     font-size: 20px;
-    font-weight: lighter;
-    color: #ffffff;
+    color: ;
     margin-top: 15px;
 }
 
@@ -476,7 +511,7 @@ aside {
 
 .c-projetos{
     width: 100%;
-    background-color: #42a470;
+    background-color: #10101a;
     padding: 85px;
     overflow: hidden;
 }
@@ -486,7 +521,7 @@ aside {
     font-size: 70px;
     padding-top: 2%;
     font-weight: bold;
-    color:#000000;
+    color:#ffffff;
 }
 
 .c-projetos p{
@@ -639,7 +674,7 @@ aside {
 .c-rodape h1{
     text-align: center;
     color: #ffffff;
-    font-weight: lighter;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 
@@ -650,7 +685,7 @@ aside {
 }
 
 .c-rodape strong{
-    color: #3cc47c;
+    color: #322c8e;
 }
 
 .c-rodape form input{
@@ -667,13 +702,13 @@ aside {
 }
 
 #btnsubmit{
-    border-radius: 10px;
+    border-radius: 10px 0px 10px 0px;
     display: flex;
     font-size: 20px;
     border: none;
     width: 108px;
     padding: 4px;
-    background-color: #3cc47c;
+    background-color: #322c8e;
     color: #ffffff;
     margin-bottom: 40px;
     justify-content: center;
@@ -701,7 +736,7 @@ aside {
 .c-icon2 span:hover {
     transition: 0.2s;
     transform: 0.5s;
-    color: #3cc47c;
+    color: #322c8e;
 }
 
 .c-rodape form input{
@@ -709,7 +744,7 @@ aside {
 }
 
 .c-rodape form input:hover{
-    transform: scale(1.1);
+    box-shadow: 4px 4px 2px 4px #322c8e;
     transition: 1s;
 }
 
