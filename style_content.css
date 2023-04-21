@@ -262,10 +262,6 @@ aside {
 }
 
 @media screen and (min-width: 900px) {
-    .menu-home ul{
-        display: none;
-    }
-    
     .main-title h1{
         font-size:40px;
         margin-top: 16%;
