@@ -1,5 +1,5 @@
 //Funcão de máquina de escrever
-function typeWriter(elemento){
+function typeWriter(elemento) {
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
     textoArray.forEach((letra, i) => {
@@ -14,28 +14,28 @@ typeWriter(document.querySelector('h2'));
 //-----------------------------------------
 
 //Função de abrir menu lateral
-function abrirmenu(){
+function abrirmenu() {
     let BarraMenuAberto = document.getElementById('barra-menu')
 
-    if(BarraMenuAberto.style.width == "0px"){
+    if (BarraMenuAberto.style.width == "0px") {
         BarraMenuAberto.style.width = "150px";
-    }else{
+    } else {
         BarraMenuAberto.style.width = "0px";
     }
 
     if (BarraMenuAberto.style.height == "0px") {
         BarraMenuAberto.style.height = "380px";
-    }else{
+    } else {
         BarraMenuAberto.style.height = "0px";
     }
 }
 //-----------------------------------------
 
 //Função enviar feedback
-function send(){
+function send() {
     let envioMensagem = document.getElementById('envio');
 
-    if(envioMensagem.onclick){
+    if (envioMensagem.onclick) {
         alert("Mensagem enviada com sucesso!");
         return;
     }
@@ -60,15 +60,21 @@ var swiper = new Swiper(".swiper-projetos", {
         320: {
             slidesPerView: 1,
             centeredSlides: false,
+            centeredSlides: true,
+            slideShadows: true,
         },
         768: {
             slidesPerView: 0,
+            centeredSlides: true,
+            slideShadows: true,
         },
         991: {
-            slidesPerView: 1.7,
+            slidesPerView: 1.2,
+            centeredSlides: true,
+            slideShadows: true,
         },
         1200: {
-            slidesPerView: 1.3,
+            slidesPerView: 1.4,
             centeredSlides: true,
             slideShadows: true,
         },
