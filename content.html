@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="pt-br">
+
+
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <title>Portfólio profissional</title>
+
     <title>Portfólio Profissional</title>
+
     <link rel="icon" href="./assets/logoicon.png">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-50V7SLZNW4"></script>
@@ -25,88 +31,115 @@
 
 <body>
     <div class="section-1-bg" id="inicio">
-        <div class="icon-logo">
-            <a href="content.html"><img src="./assets/logoicon.png" alt="logo"></a>
-        </div>
-        <aside>
-            <div class="icon-menu" onclick="abrirmenu()">
-                <img src="./assets/menu3.png" alt="menu">
-            </div>
 
-            <div id="barra-menu">
-                <ul>
-                    <li>
-                        <a href="index.html">Welcome</a>
-                    </li>
-                    <li>
-                        <a href="#inicio">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#sobre">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projetos">Projetos</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="mailto:hebert11223@gmail.com">Contato</a>
-                    </li>
-                </ul>
-                <div class="c-icon">
-                    <a target="_blank" href="https://github.com/herbertribeiro19"><span class="icon"><i
-                                class="fa-brands fa-github"></i></span></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/herbertribeiro19/"><span class="icon"><i
-                                class="fa-brands fa-linkedin-in"></i></span></a>
-                    <a target="_blank" href="https://www.instagram.com/hebert_r18/"><span class="icon"><i
-                                class="fa-brands fa-instagram"></i></span></a>
-                    <a target="_blank" href="https://wa.me/qr/E4LZYFNZKRM7H1"><span class="icon"><i
-                                class="fa-brands fa-whatsapp"></i></span></a>
-                </div>
+
+        <header>
+            <div class="icon-logo">
+                <a href="content.html"><img src="./assets/logoicon.png" alt="logo"></a>
             </div>
-        </aside>
+            <aside>
+                <div class="icon-menu" onclick="abrirmenu()">
+                    <img src="./assets/menu3.png" alt="menu">
+
+                </div>
+                <div id="barra-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#inicio">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#sobre">Sobre mim</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projetos">Projetos</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="mailto:hebert11223@gmail.com">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="c-icon">
+                        <a target="_blank" href="https://github.com/herbertribeiro19"><span class="icon"><i
+                                    class="fa-brands fa-github"></i></span></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/herbertribeiro19/"><span class="icon"><i
+                                    class="fa-brands fa-linkedin-in"></i></span></a>
+                        <a target="_blank" href="https://www.instagram.com/hebert_r18/"><span class="icon"><i
+                                    class="fa-brands fa-instagram"></i></span></a>
+                        <a target="_blank" href="https://wa.me/qr/E4LZYFNZKRM7H1"><span class="icon"><i
+                                    class="fa-brands fa-whatsapp"></i></span></a>
+                    </div>
+                </div>
+            </aside>
+        </header>
+        <div class="menu-home">
+            <ul>
+                <li>
+                    <a href="#sobre">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a target="_blank" href="mailto:hebert11223@gmail.com">Contato</a>
+                </li>
+            </ul>
+        </div>
+
         <div class="main-title">
             <h1>I'm Herbert Ribeiro</h1>
             <h2>Mobile and FrontEnd Developer</h2>
             <button class="btn-more"><a href="#sobre">Saber mais </a></button>
         </div>
-        <div class="downscroll" data-aos="fade-up">
+        <!-- <div class="downscroll" data-aos="fade-up">
             <a href="#sobre"><img src="./assets/down.png" class="down"></a>
-        </div>
+        </div> -->
     </div>
 
-    <section class="c-sobre" data-aos="fade-up" id="sobre">
-        <div class="image">
+
+    <section class="c-sobre" data-aos="" id="sobre">
+        <div class="image" data-aos="fade-up">
+
             <img src="./assets/about.svg" alt="Sobre">
         </div>
-        <div class="sobre-mim">
+        <div class="sobre-mim" data-aos="fade-up">
             <h1>Sobre mim</h1>
             <h4>Desenvolvedor & <span>Designer</span></h4>
-            <p>Olá, sou Herbert Ribeiro, estudante do curso de Sistemas de Informação
-                <br>na Universidade Federal de Viçosa (UFV) e técnico em informática
-                <br>pelo Instituto Federal Baiano. Apaixonado por tecnologia desde criança,
-                <br>fiz a escolha de me desenvolver ainda mais na área de Tecnologia
-                <br>da Informação. Atualmente venho aprimorando meus conhecimentos
-                <br>nas linguagens Dart e Flutter para desenvolvimento mobile. Também
-                <br>possuo conhecimentos nas ferramentas de desenvolvimento Front-End.
-                <br>Além das ferramentas Figma e photoshop para design de interfaces.
-                <br>Como profissional da área, minhas principais características
-                <br>são: comprometimento, foco e determinação.
+
+            <p>
+                < Olá, sou Herbert Ribeiro, estudante do curso de Sistemas de Informação <br>na Universidade Federal de
+                    Viçosa (UFV) e técnico em informática
+                    <br>pelo Instituto Federal Baiano. Apaixonado por tecnologia desde criança,
+                    <br>fiz a escolha de me desenvolver ainda mais na área de Tecnologia
+                    <br>da Informação. Atualmente venho aprimorando meus conhecimentos
+                    <br>nas linguagens Dart e Flutter para desenvolvimento mobile. Também
+                    <br>possuo conhecimentos nas ferramentas de desenvolvimento Front-End.
+                    <br>Além das ferramentas Figma e photoshop para design de interfaces.
+                    <br>Como profissional da área, minhas principais características
+                    <br>são: comprometimento, foco e determinação. />
             </p>
             <button class="btn" data-aos="fade-up"><a
                     href="https://drive.google.com/file/d/1IyIxXdVw9cD9j_pVMCW0h3tzN2KZqx2S/view?usp=sharing"
-                    target="_blank"> Meu currículo</a></button>
+                    target="_blank">Meu Currículo</a></button>
         </div>
     </section>
 
-    <section class="c-servicos" data-aos="fade-up" id="skills">
+    <section class="c-servicos" data-aos="" id="skills">
         <h1>Skills</h1>
         <p>Veja abaixo as minhas principais habilidades</p>
         <div class="c-card" data-aos="fade-up">
-            <div class="card" data-aos="zoom-in">
+            <div class="card">
+
+            
                 <img src="./assets/flutter.png" alt="nodejs">
-                <h3>Flutter</h3>
+                <h3>flutter</h3>
             </div>
             <div class="card" data-aos="zoom-in">
                 <img src="./assets/dart.png" alt="nodejs">
@@ -147,7 +180,7 @@
         </div>
     </section>
 
-    <section class="c-projetos" data-aos="fade-up" id="projetos">
+    <section class="c-projetos" data-aos="" id="projetos">
         <h1>Projetos</h1>
         <p>Abaixo será possível visualizar alguns projetos desenvolvidos por mim</p>
 
@@ -259,7 +292,7 @@
         </div>
     </section>
 
-    <section class="c-rodape" data-aos="fade-up">
+    <section class="c-rodape" data-aos="">
         <h1>Entre em contato para propostas e orçamentos</h1>
         <form action="https://formsubmit.co/hebert11223@gmail.com" method="POST">
             <input type="Email" name="email" placeholder="Informe seu email" required>
