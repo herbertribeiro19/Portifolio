@@ -424,10 +424,11 @@ aside {
 
 .sobre-mim p {
     color: #1e1d1f;
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
     margin-top: 25px;
     font-weight: 600;
+    max-width: 600px;
 }
 
 .sobre-mim button a{
@@ -470,35 +471,33 @@ aside {
     }
 
     .image{
-        width: 100px;
-        margin-bottom: 40px;
+        display: none;
     }
 
     .sobre-mim{
         padding-top: 2px;
         border-radius: 100px 50px 100px 50px;
+        margin: 6px;
     }
 
     .sobre-mim h1{
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 36px;
     }
 
     .sobre-mim h4{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .sobre-mim p{
-        font-size: 6px;
-        width: 500px;
-        padding: 15px;
-        text-align: center;
-    }
+        font-size: 8px;
+        font-weight: 500;
+    }   
 
     .sobre-mim button{
-        margin-left: 40%;
+        margin-left: 28%;
         font-size: 10px;
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 10px;
     }
 }
