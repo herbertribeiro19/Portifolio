@@ -59,19 +59,22 @@ body {
 }
 
 .btn a{
-    color: rgb(0, 0, 0);
-    font-weight: 800;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 /* ANIMATIONS */
 .btn:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(191, 191, 191);
+    color: #322c8e;
+    box-shadow: 4px 4px 8px #322c8e;
     transform: scale(1.1);
     transition: 1.0s;
 }
 
-.animation:hover {
-    transform: scale(1.1);
+.btn:hover a{
+    color: #322c8e;
+    font-weight: 700;
 }
 
 /* ANIMATIONS - LAG */

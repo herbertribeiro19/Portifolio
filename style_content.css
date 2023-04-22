@@ -33,7 +33,43 @@ header{
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0px 0px 15px #322c8e;
     margin-bottom: 8px;
+    animation: fromBottom 0.6s backwards;
 }
+
+.menu-home{
+    padding-top: 20px;
+    animation: fromBottom 2.0s backwards;
+}
+
+.menu-home ul{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 17%; */
+    align-items:start;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 60px;
+}
+
+.menu-home ul li{
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    transition: .6s;
+}
+
+.menu-home ul li:hover{
+    background: #322c8e;
+    border: none;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 6px rgb(191, 191, 191);
+}
+
+.menu-home li a{
+    color: white;
+}
+
 
 aside {
     position: absolute;
@@ -195,45 +231,13 @@ aside {
     cursor: pointer;
     transition: 1.0s;
     box-shadow: 4px 4px 8px rgb(191, 191, 191);
+    animation: fromBottom 3.0s backwards;
 }
 
 .main-title button:hover{
     border: solid 0.5px rgb(191, 191, 191);
     transition: 1.0s;
     background: transparent;
-}
-
-.menu-home{
-    padding-top: 20px;
-}
-
-.menu-home ul{
-    display: flex;
-    justify-content: center;
-    /* margin-left: 17%; */
-    align-items:start;
-    flex-direction: row;
-    align-content: space-between;
-    gap: 60px;
-}
-
-.menu-home ul li{
-    border-radius: 10px 0px 10px 0px;
-    padding: 10px;
-    transition: .6s;
-}
-
-.menu-home ul li:hover{
-    background: #322c8e;
-    border: none;
-    padding: 10px;
-    border-radius: 20px 0px 20px 0px;
-    transform: scale(1.1);
-    box-shadow: 4px 4px 6px rgb(191, 191, 191);
-}
-
-.menu-home li a{
-    color: white;
 }
 
 .downscroll{
@@ -461,23 +465,18 @@ aside {
     .c-sobre{
         background-color: #10101a;
         display: flex;
-        justify-content: space-around;
         width: 100%;
-        flex-wrap: wrap;
         overflow: hidden;
     }
 
     .image{
-        width: 215px;
-        height: auto;
-        margin-bottom: 30px;
+        width: 100px;
+        margin-bottom: 40px;
     }
 
     .sobre-mim{
-        padding-bottom: 30px;
         padding-top: 2px;
-        margin-left: 0px;
-        border-radius: 500px 200px 500px 200px;
+        border-radius: 100px 50px 100px 50px;
     }
 
     .sobre-mim h1{
@@ -486,16 +485,18 @@ aside {
     }
 
     .sobre-mim h4{
-        font-size: 16px;
+        font-size: 18px;
     }
+
     .sobre-mim p{
-        font-size: 8px;
+        font-size: 6px;
         width: 500px;
         padding: 15px;
         text-align: center;
     }
+
     .sobre-mim button{
-        margin-left: 38%;
+        margin-left: 40%;
         font-size: 10px;
         margin-top: 10px;
         padding: 10px;
@@ -565,7 +566,7 @@ aside {
 @media screen and (max-width: 414px) {
     .c-servicos h1 {
         font-size: 40px;
-        margin-left: -20%;
+        margin-left: -22%;
     }
 
     .c-servicos p{
@@ -574,12 +575,12 @@ aside {
     }
 
     .card img{
-        width: 30px; 
+        width: 40px; 
         height: auto;
     }
 
     .card h3{
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 600;
         color: #1e1d1f;
     }
@@ -616,7 +617,7 @@ aside {
     color: #ffffff;
 }
 
-.img-projetos {
+.img-projetos{
     display: flex;
     justify-content: center;
     margin-top: 4%;
@@ -630,11 +631,6 @@ aside {
     height: auto;
     cursor: pointer;
     border-radius: 20px 0px 20px 0px;
-}
-
-.img-projetos:hover{
-    transform: scale(1.1);
-    transition-duration: .9s;
 }
 
 .image-projeto{
@@ -668,7 +664,7 @@ a{
     color: #322c8e;
 }
 
-.card-character:hover .image-projeto{
+.card-character:hover .img-projetos{
     transform: scale(1.1);
 }
 
