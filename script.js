@@ -42,44 +42,48 @@ function send() {
 }
 //-----------------------------------------
 
-//Função swiperJS
-var swiper = new Swiper(".swiper-projetos", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: 1.5,
-    loop: false,
-    coverflowEffect: {
-        rotate: 20,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: false,
-    },
-    breakpoints: {
-        320: {
-            slidesPerView: 1,
-            centeredSlides: false,
-            centeredSlides: true,
-            slideShadows: true,
-        },
-        768: {
-            slidesPerView: 0,
-            centeredSlides: true,
-            slideShadows: true,
-        },
-        991: {
-            slidesPerView: 1.2,
-            centeredSlides: true,
-            slideShadows: true,
-        },
-        1200: {
-            slidesPerView: 1.4,
-            centeredSlides: true,
-            slideShadows: true,
-        },
-    },
-});
+
+
+
+
+// //Função swiperJS
+// var swiper = new Swiper(".swiper-projetos", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: 1.5,
+//     loop: false,
+//     coverflowEffect: {
+//         rotate: 20,
+//         stretch: 0,
+//         depth: 100,
+//         modifier: 1,
+//         slideShadows: false,
+//     },
+//     breakpoints: {
+//         320: {
+//             slidesPerView: 1,
+//             centeredSlides: false,
+//             centeredSlides: true,
+//             slideShadows: true,
+//         },
+//         768: {
+//             slidesPerView: 0,
+//             centeredSlides: true,
+//             slideShadows: true,
+//         },
+//         991: {
+//             slidesPerView: 1.2,
+//             centeredSlides: true,
+//             slideShadows: true,
+//         },
+//         1200: {
+//             slidesPerView: 1.4,
+//             centeredSlides: true,
+//             slideShadows: true,
+//         },
+//     },
+// });
 //-------------------------------------
 
 

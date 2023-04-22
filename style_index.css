@@ -11,7 +11,7 @@
 
 body {
     overflow: hidden;
-    background: black;
+    background: #10101a;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100% auto;
@@ -42,17 +42,17 @@ body {
 }
 
 .btn{ 
-    background-color: #3cc47c;
+    background-color: #322c8e;
     width: 8%;
     padding: 16px 0px;
     margin: 5px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px 0px 20px 0px;
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    box-shadow: 4px 4px 8px #529a74;
+    box-shadow: 4px 4px 8px rgb(191, 191, 191);
     cursor: pointer;
     transition: transform .8s;
     animation: fromBottom 3.0s backwards;
@@ -116,52 +116,52 @@ body {
     }
 
     .btn {
-        background-color: #3cc47c;
+        background-color: #322c8e;
         width: 50%;
         padding: 16px 0px;
         margin: 20px;
         border: none;
-        border-radius: 15px;
+        border-radius: 20px 0px 20px 0px;
     }
     .btn a {
-        color: rgb(0, 0, 0);
+        color: #ffffff;
     }
 }
 
 @media screen and (max-width: 414px) {
     .text h3 {
         font-size: 31px;
-        margin-top: 2px;
+        margin-top: 1px;
     }
 
     .text h1 {
         font-size: 28px;
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .text p{
         font-size: 13px;
     }
     
     .text{
-        padding-top: 90px;
+        padding-top: 70px;
     }
 
     .animation {
-        padding-top: 40px;
-        width: 70vw;
+        padding-top: 10px;
+        width: 50vw;
     }
 
     .btn {
-        background-color: #3cc47c;
+        background-color: #322c8e;
         width: 30%;
         padding: 16px 0px;
         margin: 20px;
         margin-bottom: 40px;
         border: none;
-        border-radius: 15px;
+        border-radius: 20px 0px 20px 0px;
     }
     .btn a {
-        color: rgb(0, 0, 0);
+        color: #ffffff;
     }
 }
 
@@ -173,7 +173,7 @@ body {
 
     .text h1 {
         font-size: 25px;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .text p {
@@ -181,20 +181,20 @@ body {
     }
 
     .text {
-        padding-top: 15px;
+        padding-top: 10px;
     }
 
     .animation {
         padding-top: 10px;
-        width: 40vw;
+        width: 30vw;
     }
 
     .btn {
-        background-color: #FEE5CA;
+        background-color: #322c8e;
         width: 30%;
         padding: 16px 0px;
         margin: 16px;
         border: none;
-        border-radius: 15px;
+        border-radius: 20px 0px 20px 0px;
     }
 }
