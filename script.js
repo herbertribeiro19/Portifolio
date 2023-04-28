@@ -12,7 +12,6 @@ typeWriter(titulo);
 typeWriter(document.querySelector('h2'));
 
 //-----------------------------------------
-
 //Função de abrir menu lateral
 function abrirmenu() {
     let BarraMenuAberto = document.getElementById('barra-menu')
@@ -30,17 +29,11 @@ function abrirmenu() {
     }
 }
 //-----------------------------------------
-
 //Função enviar feedback
 function send() {
     alert("A proposta foi enviada com sucesso, obrigado!");
 }
 //-----------------------------------------
-
-
-
-
-
 // //Função swiperJS
 // var swiper = new Swiper(".swiper-projetos", {
 //     effect: "coverflow",
