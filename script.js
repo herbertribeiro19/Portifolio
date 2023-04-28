@@ -33,12 +33,7 @@ function abrirmenu() {
 
 //Função enviar feedback
 function send() {
-    let envioMensagem = document.getElementById('envio');
-
-    if (envioMensagem.onclick) {
-        alert("Mensagem enviada com sucesso!");
-        return;
-    }
+    alert("A proposta foi enviada com sucesso, obrigado!");
 }
 //-----------------------------------------
 
