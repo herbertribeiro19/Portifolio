@@ -32,7 +32,7 @@ function abrirmenu() {
 //-----------------------------------------
 //Função enviar feedback
 function send() {
-    alert("A proposta foi enviada com sucesso, obrigado!");
+    alert("A proposta foi enviada com sucesso, obrigado(a)!");
 }
 //-----------------------------------------
 // //Função swiperJS
