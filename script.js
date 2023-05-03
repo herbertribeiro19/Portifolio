@@ -18,6 +18,7 @@ function abrirmenu() {
 
     if (BarraMenuAberto.style.width == "0px") {
         BarraMenuAberto.style.width = "150px";
+        
     } else {
         BarraMenuAberto.style.width = "0px";
     }
