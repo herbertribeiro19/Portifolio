@@ -457,7 +457,6 @@ aside {
         width: 600px;
         margin-bottom: 30px;
     }
-
 }
 
 @media screen and (max-width: 414px) {
@@ -548,6 +547,12 @@ aside {
     height: auto;
 }
 
+.card2 img{
+    width: 360px; 
+    height: auto;
+    border-radius: 30px;
+}
+
 .card h3{
     font-size: 20px;
     font-weight: 600;
@@ -556,7 +561,7 @@ aside {
 
 .card h4{
     font-size: 20px;
-    color: ;
+
     margin-top: 15px;
 }
 
@@ -589,6 +594,19 @@ aside {
         margin-top: 50px;
         padding: 20px;
     }
+
+    .card2 img{
+        display: none;
+    }
+
+    .card2 button{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        height: auto;
+        border-radius: 10px;
+        margin: 5px;
+    }
 }
 
 /* PROJETOS - PAGE 4 */
@@ -614,12 +632,116 @@ aside {
     color: #ffffff;
 }
 
+
+.choicesdiv{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 20px;
+justify-content: space-around;
+}
+
+.sites-projetos{
+    display: none;
+}
+
+.apps-projetos{
+    display: none;
+}
+
+.uiux-projetos{
+    display: none;
+}
+
+.sites-projetos img{
+    width: 200px; 
+    height: auto;
+}
+
+.apps-projetos img{
+    width: 400px; 
+    height: auto;
+}
+
+.uiux-projetos img{
+    width: 400px; 
+    height: auto;
+}
+
+
+
+
+.btn-sites{
+    border: none;
+    margin-top: 50px;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #322c8e;
+    border-radius: 10px 0px 10px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.0s;
+    box-shadow: 4px 4px 8px rgb(191, 191, 191);
+    animation: fromBottom 3.0s backwards;
+}
+
+.btn-sites:hover{
+    transform: scale(1.1);
+    background-color: #fcf6ef;
+    color: #322c8e;
+}
+
+.btn-apps{
+    border: none;
+    margin-top: 50px;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #322c8e;
+    border-radius: 10px 0px 10px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.0s;
+    box-shadow: 4px 4px 8px rgb(191, 191, 191);
+    animation: fromBottom 3.0s backwards;
+}
+
+.btn-apps:hover{
+    transform: scale(1.1);
+    background-color: #fcf6ef;
+    color: #322c8e;
+}
+
+.btn-uiux{
+    border: none;
+    margin-top: 50px;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #322c8e;
+    border-radius: 10px 0px 10px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.0s;
+    box-shadow: 4px 4px 8px rgb(191, 191, 191);
+    animation: fromBottom 3.0s backwards;
+}
+
+.btn-uiux:hover{
+    transform: scale(1.1);
+    background-color: #fcf6ef;
+    color: #322c8e;
+}
+
+
 .img-projetos{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 4%;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 60px;
     padding: 20px;
 }
 
@@ -674,6 +796,49 @@ a{
     .img-projetos img {
         width: 630px;
     }
+
+    .img-projetos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-character{
+
+    }
+
+    .card-character .image-projeto img{
+        width: 600px;
+        margin-left: 00px;
+    }
+
+    .card-character .image-projeto button{
+        /* position: absolute; */
+        padding: 8px;
+        font-size: 26px;
+        line-height: 30px;
+        transition: all .3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-character:hover .image button {
+        bottom: 1rem;
+    }
+
+    .choicesdiv{
+        display: flex;
+        flex-direction: column;
+        
+        }
+    .card2 img{
+        display: none;
+    }
+
+    .c-card button{
+        font-size: 30px;
+     }
 }
 
     @media screen and (max-width: 414px) {
@@ -697,18 +862,29 @@ a{
         }
 
         .card-character .image-projeto button{
-            position: absolute;
-            padding: 8px;
-            font-size: 8px;
-            line-height: 10px;
+            /* position: absolute; */
+            padding: 10px;
+            font-size: 20px;
+            line-height: 16px;
             transition: all .3s ease;
-            margin-left: -64%;
+            margin-left: 6%;
+            width: 80%;
         }
 
         .card-character:hover .image button{
             opacity: 1;
             bottom: 1rem;
         }
+
+        .choicesdiv{
+            display: flex;
+            flex-direction: column;
+            
+            }
+            .card2 img{
+                display: none;
+            }
+
     }
     
     @media (max-width: 560px) {
@@ -724,7 +900,7 @@ a{
             }
         
             .c-projetos p {
-                font-size: 12px;
+                font-size: 24px;
                 text-align: center;
                 margin-top: 35px;
                 color: #ffffff;
@@ -734,27 +910,37 @@ a{
                 width: 150px;
             }
             
-            .card-character .image{
-                width: 350px;
-                height: 200px;
+
+
+            .card-character .image-projeto img{
+                width: 400px;
+                margin-left: 100px;
             }
 
-            .card-character .image img {
-                width: 350px;
-                height: 200px;
-            }
-
-            .card-character .image button {
-                position: absolute;
+            .card-character .image-projeto button{
+                /* position: absolute; */
                 padding: 8px;
-                font-size: 8px;
-                line-height: 15px;
+                font-size: 26px;
+                line-height: 30px;
                 transition: all .3s ease;
             }
 
             .card-character:hover .image button {
                 bottom: 1rem;
             }
+
+            .choicesdiv{
+                display: flex;
+                flex-direction: column;
+                
+                }
+            .card2 img{
+                display: none;
+            }
+
+            .c-card button{
+                font-size: 30px;
+             }
         }
 
 /* RODAPE - PAGE 5 */
