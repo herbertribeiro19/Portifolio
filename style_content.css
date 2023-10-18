@@ -386,18 +386,19 @@ aside {
     overflow: hidden;
 }
 
-.image{
+/* .image{
     border-radius: 0px 20px 0px 20px;
     width: 600px;
     height: auto;
     cursor: pointer;
     box-shadow: 0px 0px 40px black;
-}
+} */
 
 .sobre-mim{
     background-color: rgb(191, 191, 191);
     border-radius: 40px 0px 40px 0px;
-    padding: 70px;
+    padding: 50px;
+    margin: 6px;
     box-shadow: 4px 8px 10px #322c8e, 4px 4px 2px;
 }
 
@@ -472,9 +473,9 @@ aside {
     }
 
     .sobre-mim{
-        padding-top: 2px;
+        padding-top: 1px;
         border-radius: 100px 50px 100px 50px;
-        margin: 6px;
+        margin: 10px;
     }
 
     .sobre-mim h1{
@@ -483,12 +484,13 @@ aside {
     }
 
     .sobre-mim h4{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .sobre-mim p{
-        font-size: 8px;
+        font-size: 14px;
         font-weight: 500;
+        width: 100%;
     }   
 
     .sobre-mim button{
@@ -504,7 +506,7 @@ aside {
 .c-servicos{
     background-color: #10101a;
     width: 100%;
-    padding: 150px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -548,7 +550,7 @@ aside {
 }
 
 .card2 img{
-    width: 360px; 
+    width: 300px; 
     height: auto;
     border-radius: 30px;
 }
@@ -621,7 +623,7 @@ aside {
 .c-projetos h1{
     text-align: center;
     font-size: 70px;
-    padding-top: 2%;
+    padding-top: 0%;
     font-weight: bold;
     color:#ffffff;
 }
@@ -631,7 +633,6 @@ aside {
     margin-top: 35px;
     color: #ffffff;
 }
-
 
 .choicesdiv{
 display: flex;
@@ -668,9 +669,6 @@ justify-content: space-around;
     width: 400px; 
     height: auto;
 }
-
-
-
 
 .btn-sites{
     border: none;
@@ -801,10 +799,6 @@ a{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .card-character{
-
     }
 
     .card-character .image-projeto img{
