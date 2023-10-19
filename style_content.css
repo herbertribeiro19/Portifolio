@@ -802,9 +802,11 @@ a{
         justify-content: center;
     }
 
+    
+
     .card-character .image-projeto img{
         width: 600px;
-        margin-left: 00px;
+        margin-left: 0px;
     }
 
     .card-character .image-projeto button{
@@ -849,6 +851,7 @@ a{
             position: relative;
             width: 260px;
             height: 160px;
+            margin-top: 40px;
         }
         
         .card-character .image-projeto img {
@@ -859,10 +862,12 @@ a{
         .card-character .image-projeto button{
             /* position: absolute; */
             padding: 10px;
-            font-size: 20px;
+            font-size: 16px;
             line-height: 16px;
             transition: all .3s ease;
             margin-left: 6%;
+            margin-top: 2px;
+            margin-bottom: 20px;
             width: 80%;
         }
 
@@ -879,7 +884,10 @@ a{
             .card2 img{
                 display: none;
             }
-
+            .c-card button{
+                font-size: 16px;
+                margin: 10px;
+             }
     }
     
     @media (max-width: 560px) {
@@ -904,6 +912,10 @@ a{
             .img-projetos img {
                 width: 150px;
             }
+
+            .card-character .image-projeto{
+                margin-top: 40px;
+            }
     
 
             .card-character .image-projeto img{
@@ -914,8 +926,9 @@ a{
             .card-character .image-projeto button{
                 /* position: absolute; */
                 padding: 8px;
-                font-size: 26px;
+                font-size: 16px;
                 line-height: 30px;
+                margin-top: 2px;
                 transition: all .3s ease;
             }
 
@@ -933,7 +946,8 @@ a{
             }
 
             .c-card button{
-                font-size: 20px;
+                font-size: 16px;
+                margin: 10px;
              }
         }
 
