@@ -526,8 +526,9 @@ aside {
 
 .c-card{
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: center;
     flex-wrap: wrap;
     gap: 80px;
@@ -570,7 +571,6 @@ aside {
 @media screen and (max-width: 414px) {
     .c-servicos h1 {
         font-size: 40px;
-        margin-left: -22%;
     }
 
     .c-servicos p{
@@ -590,6 +590,8 @@ aside {
     }
 
     .c-card{
+        display: flex;
+        flex-direction: column;
         gap: 0px;
     }
     .card {
